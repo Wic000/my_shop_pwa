@@ -1,9 +1,0 @@
-
-{
-  "name": "PC App Online Store",
-  "description": "A high-performance Telegram Mini App for buying computers, laptops, and accessories.",
-  "requestFramePermissions": [
-    "camera",
-    "geolocation"
-  ]
-}
