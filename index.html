@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PC App - Online Do'kon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+            background-color: var(--tg-theme-bg-color, #f8fafc);
+            color: var(--tg-theme-text-color, #0f172a);
+        }
+        .tg-secondary-bg {
+            background-color: var(--tg-theme-secondary-bg-color, #f1f5f9);
+        }
+        .tg-button-bg {
+            background-color: var(--tg-theme-button-color, #3b82f6);
+        }
+        .tg-button-text {
+            color: var(--tg-theme-button-text-color, #ffffff);
+        }
+        .gradient-brand {
+            background: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body class="overflow-x-hidden">
+    <div id="root"></div>
+</body>
+</html>
